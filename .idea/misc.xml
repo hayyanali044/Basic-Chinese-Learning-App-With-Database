@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_all_lessons.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lesson1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lesson2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lesson3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lesson4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lessons.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_lessons_by_tutors.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_progress.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/activity_tutors_list.xml" value="0.264" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/fragment_lesson1_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/M. Hayyan Ali/Desktop/Chinese Learning App/app/src/main/res/layout/fragment_lesson2_.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

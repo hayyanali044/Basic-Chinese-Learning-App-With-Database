@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".ProgressActivity">
+
+    <Spinner
+        android:id="@+id/enter_learner_level"
+        android:layout_width="199dp"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:entries="@array/learner_level"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <Spinner
+        android:id="@+id/enter_lessons_completed"
+        android:layout_width="192dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="204dp"
+        android:background="@color/white"
+        android:entries="@array/lessons_completed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_learner_level"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="256dp"
+        android:text="Lessons Completed:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/enter_lessons_completed"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/learner_level"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Progress Report"
+        android:textColorHighlight="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="227dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="66dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:text="Name:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/enter_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="47dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="40dp"
+        android:text="Age:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <EditText
+        android:id="@+id/enter_age"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_name"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="74dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="424dp"
+        android:text="Gender:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/enter_gender"
+        android:layout_width="216dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:entries="@array/Gender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <TextView
+        android:id="@+id/learner_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Learner Level:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gender"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/to_mainactivity"
+        android:layout_width="108dp"
+        android:layout_height="51dp"
+        android:background="@color/yellow"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <Button
+        android:id="@+id/return_to_main"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
